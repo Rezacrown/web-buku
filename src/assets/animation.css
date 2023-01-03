@@ -1,0 +1,62 @@
+/* slider animation */
+
+/* #slider img:nth-child(1) {
+    -webkit-animation: slider 10s infinite alternate;
+    animation: slider 10s infinite alternate;
+}
+
+#slider img:nth-child(2) {
+    -webkit-animation: slider 10s  infinite alternate;
+    animation: slider 10s  infinite alternate;
+}
+
+#slider img:nth-child(3) {
+    -webkit-animation: slider 10s  infinite alternate;
+    animation: slider 10s  infinite alternate;
+} */
+
+
+#slider img {
+    -o-transition: all 20s ease;
+    -webkit-animation: slider 12s 2s infinite linear;
+    animation: slider 12s 2s infinite linear;
+    -webkit-transition: all 20s ease;
+    -moz-transition: all 20s ease;
+    -ms-transition: all 20s ease;
+    transition: all 20s ease;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes slider {
+    0% {
+        translate: 0%;
+    }
+
+    25% {
+        translate: -100%;
+
+    }
+
+    50% {
+        translate: -200%;
+
+    }
+
+    75% {
+        translate: -100%;
+
+    }
+
+    100% {
+        translate: 0%;
+    }
+
+}
